@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0px 20px ;
+    
+}
+
+section nav  .logo {
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin: 15px 0 ;
+    margin-left: 40px;
+    
+}
+
+section nav span {
+    color: brown;
+}
+
+
+section nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+
+section nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+section nav ul li a:hover {
+    color: brown;
+}
+
+section nav .sign-up {
+    margin-right: 40px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+   
+}
+
+section nav .sign-up:hover {
+    background-color: burlywood;
+}
+
+section nav .btn {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+section nav .btn:hover {
+    color: brown;
+}
+
+section nav .circle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: palevioletred;
+    z-index: -1;
+    left: -120px;
+}
+
+section nav .circle2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: palevioletred;
+    bottom: 0;
+    right: 50px;
+    bottom: -700px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+section footer p {
+    width: 600px;
+    line-height: 22px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+section footer {
+    display: flex;
+}
+
+section footer div .backg {
+    width: 750px;
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    margin-left: 25px;
+}
+
+section footer .text {
+    margin-top: 210px;
+    margin-left: 70px;
+}
+
+section footer .text h1 {
+    font-size: 70px;
+    color: rgb(82, 82, 84);
+    text-align: center;
+}
+
+section footer .text h1 span {
+    color: rgb(143, 69, 69);
+}
+
+section footer .text .btn {
+    margin-left: 20px;
+    margin-top: 100px;
+    padding: 10px 15px;
+    /* border: none; */
+    
+}
+
+section footer .text .btn_shop {
+    background-color: rgb(223, 143, 143);
+    border: rgb(82, 82, 84);
+    
+}
+
+
+section footer .text .btn1 {
+    color: black;
+    text-decoration: none;
+}
+
+section footer .text .btn2 {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+section .ima .box img {
+    width: 130px;
+}
+
+section .ima {
+    width: 100%;
+    height: 240vh;
+    padding: 50px;
+}
+
+
+section .ima .box {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    z-index: -1;
+    background-color: white;
+    border-bottom: 1px solid black;
+    
+}
+
+section .ima .box .card {
+    background-color: gainsboro;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: 0.2;
+}
+
+section .ima .box .card:hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+
+}
+
+section .review {
+    margin-top: 80px;
+    
+}
+
+section .review h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+section .review .clothe {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px; 
+}
+
+section .review .cargo {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: 30px;
+}
+
+section .review .cargo .product img {
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+section .review .cargo .product img:hover {
+    transform: scale(1.1);
+}
+
+section .review .cargo .product h2 {
+    margin-top: 10px;
+    color: white;
+}
+
+section .review .cargo .product p {
+    padding: 20px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+section .review .cargo .product {
+    text-align: center;
+    background: #9d9d9d;
+    height: 520px;
+    border-radius: 15px;
+    padding-top: 10px;
+    transition: 0.3;
+    margin: 0 15px;
+}
+
+section .review .cargo .product:hover {
+    transform: scale(0.9);
+    box-shadow: 3px 5px 15px black;
+}
+
+
+
+
+section .review .cargo .product a {
+    text-decoration: none;
+    border: none;
+    color: white;
+    background: #f9004d;
+    padding: 10px 20px;
+}
+
+
+
+section .review-food .title {
+    text-align:  center;
+    font-size: 20px;
+    margin-top: 50px;
+    
+}
+
+section .review-food .food {
+    display: grid;
+    width: 100%;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+
+section .review-food .food .food-card img {
+    width: 200px;
+    transition: 0.3;
+    cursor: pointer;
+}
+
+section .review-food .food .food-card img:hover {
+    transform: scale(0.9);
+
+}
+
+section .review-food .food .food-card {
+    text-align: center;
+    background-color: #9d9d9d;
+    height: 440px;
+    margin: 0 20px;
+    border-radius: 10px;
+    transition: 0.3;
+}
+
+section .review-food .food .food-card:hover {
+    transform: scale(0.9);
+    box-shadow: 3px 5px 15px black;
+
+}
+
+section .review-food .food .food-card p {
+    padding: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+section .review-food .food .food-card h2 {
+    color: white;
+}
+
+section .review-food .food .food-card a {
+    text-decoration: none;
+    border: none;
+    color: white;
+    background: #f9004d;
+    padding: 10px 20px;
+}
+
+section .end .contact-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 140px;
+}
+
+section .end .contact-box .contact .icon {
+    display: flex;
+    margin-top: 15px;
+}
+
+section .end .contact-box .contact .icon .logo {
+    margin-left: 10px;
+}
+
+section .end .contact-box .contact h4 {
+    color: white;
+    font-size: 18px;
+}
+
+section .end .contact-box .contact ul li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+section .end .contact-box .contact ul li a {
+    text-decoration: none;
+    color: #9d9d9d;
+}
+
+section .end {
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    /* height: 200px; */
+    align-items: center;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
